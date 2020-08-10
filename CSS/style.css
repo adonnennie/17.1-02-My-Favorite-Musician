@@ -1,0 +1,65 @@
+div.hero {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.gallery {
+    margin: 5px;
+    float: left;
+    width: 180px;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+  }  
+a {
+    color: hotpink
+}
+html {
+    background-color: black;
+}
+body {
+    color: white;
+    padding: 20px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Beth Ellen', cursive;
+    padding: 10px;
+}
+h2 {
+    color: rgb(127, 177, 53);
+    border-bottom: solid;
+    border-color:  rgb(127, 177, 53);
+}
+h3 {
+    color: greenyellow;
+    text-align: center;
+}
+h4 {
+    font-style: italic;
+}
+p {
+    color: black;
+}
+ul {
+     border: yellowgreen;
+    padding-left: 300px;
+}
+div.bad {
+        background-color: whitesmoke;
+        border: yellowgreen;
+        padding: 20px;
+        width: 500px;
+        text-align: center;
+}
+div.bury {
+        background-color: whitesmoke;
+        border: yellowgreen;
+        padding: 20px;
+        width: 500px;
+        text-align: center;
+}
