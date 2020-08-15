@@ -1,12 +1,12 @@
 div.hero {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
 }
-div.gallery {
+.gallery {
     margin: 5px;
     float: left;
     width: 180px;
+    page-break-after: auto;
 }
 div.gallery img {
     width: 100%;
@@ -47,19 +47,30 @@ p {
 }
 ul {
      border: yellowgreen;
-    padding-left: 300px;
+    padding-left: 100px;
+    margin: auto;
 }
-div.bad {
-        background-color: whitesmoke;
+.bad { 
+    background-color: white;
         border: yellowgreen;
-        padding: 20px;
-        width: 500px;
+        padding: 10px;
+        width: 40%;
         text-align: center;
 }
-div.bury {
-        background-color: whitesmoke;
+.badvideo { 
+     width:50%; 
+     height:280px; 
+     float: right;
+}
+.bury {
+        background-color: white;
         border: yellowgreen;
-        padding: 20px;
-        width: 500px;
+        padding: 10 px;
+        width: 40%;
         text-align: center;
+}
+.buryvideo {
+    width:50%; 
+    height:280px; 
+    float: right;
 }
